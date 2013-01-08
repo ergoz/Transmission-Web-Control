@@ -1,8 +1,8 @@
 Transmission Web Control (github fork)
 ========================
-Author: Ronggang
+Author: Ronggang Zhou
 
-Zhou Source: http://code.google.com/p/transmission-control/
+Source: http://code.google.com/p/transmission-control/
 
 Russian translation
 ========================
