@@ -28,7 +28,7 @@ Default user and password "transmission" for change edit settings.json:
 
 Install [Transmission and Transmission Daemon](http://www.transmissionbt.com/download/)
 
-Download latest version of Web Control from [official project page](http://code.google.com/p/transmission-control/wiki/Install) or [clone git repo](https://github.com/barif/Transmission-Web-Control/archive/master.zip).
+Download latest version of Transmission Web Control from [official project page](http://code.google.com/p/transmission-control/downloads/list) or [clone git repo](https://github.com/barif/Transmission-Web-Control/archive/master.zip).
 
 Extract to transmission web directory.
 
