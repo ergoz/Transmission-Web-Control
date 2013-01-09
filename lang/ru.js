@@ -99,7 +99,7 @@ system.lang = {
 	,"dialog":{
 		"torrent-add":{
 			"download-dir":"Каталог загрузки:"
-			,"torrent-url":"Ссылка на .torrent:"
+			,"torrent-url":"Ссылка на .torrent или magnet:"
 			,"tip-torrent-url":"Новая ссылка с новой строки"
 			,"autostart":"Начать загрузку:"
 			,"tip-autostart":""
@@ -126,7 +126,7 @@ system.lang = {
 			,"seed-queue-enabled":"Включить очередь отдачи, одновременно:"
 			,"peer-port-random-on-start":"Использовать случайный порт при запуске"
 			,"port-forwarding-enabled":"Включить перенаправление"
-			,"test-port":"Проверить порт"
+			,"test-port":"Проверить"
 			,"port-is-open-true":"Порт закрыт"
 			,"port-is-open-false":"Порт открыт"
 			,"testing":"Тестирую..."
@@ -199,13 +199,13 @@ system.lang = {
 			,"totalSize":"Объем"
 			,"status":"Статус"
 			,"percentDone":"%"
-			,"addedDate":"Добавленe"
+			,"addedDate":"Добавлено"
 			,"completeSize":"Загружено"
 			,"rateDownload":"Прием"
 			,"rateUpload":"Отдача"
 			,"leecherCount":"Личи"
 			,"seederCount":"Сиды"
-			,"uploadedEver":"Всего отдано"
+			,"uploadedEver":"Отдано"
 			,"uploadRatio":"Рейтинг"
 		}
 		,"status-text":{
