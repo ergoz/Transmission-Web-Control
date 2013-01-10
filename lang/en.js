@@ -89,7 +89,13 @@ system.lang = {
 			,"sessionCount":"SessionCount: " 
 			,"secondsActive":"SecondsActive: "
 		}
-		,"server":"Tracker(s)"
+		,"server":"Trackers"
+		,"folders":"Folders"
+		,"toolbar":{
+			"nav":{
+				"folders":"Folders"
+			}
+		}
 	}
 	,"statusbar":{
 		"downloadspeed":"Download speed:"
@@ -116,6 +122,7 @@ system.lang = {
 				,"limit":"Limit"
 				,"alt-speed":"Scheduled"
 			}
+			,"config-dir":"Location of transmission's configuration directory:"
 			,"download-dir":"Default path to download torrents:"
 			,"download-dir-free-space":"Free space:"
 			,"incomplete-dir-enabled":"Use incomplete dir"

@@ -78,7 +78,6 @@ system.lang = {
 		,"status":{
 			"loading":"Загрузка..."
 		}
-		,"statistics":"Статистика"
 		,"statistics":{
 			"title":"Статистика"
 			,"cumulative":"Общая"
@@ -90,6 +89,12 @@ system.lang = {
 			,"secondsActive":"Время работы: "
 		}
 		,"server":"Трекеры"
+		,"folders":"папки"
+		,"toolbar":{
+			"nav":{
+				"folders":"папки"
+			}
+		}
 	}
 	,"statusbar":{
 		"downloadspeed":"Скорость загрузки:"
@@ -116,6 +121,7 @@ system.lang = {
 				,"limit":"Ограничения"
 				,"alt-speed":"Рассписание"
 			}
+			,"config-dir":"Location of transmission's configuration directory:"
 			,"download-dir":"каталог для загрузки по-умолчанию:"
 			,"download-dir-free-space":"Свободно места:"
 			,"incomplete-dir-enabled":"Использовать каталог для незавершенных"

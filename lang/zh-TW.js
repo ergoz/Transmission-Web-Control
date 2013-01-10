@@ -89,6 +89,12 @@ system.lang = {
 			,"secondsActive":"活動時間："
 		}
 		,"server":"伺服器分佈"
+		,"folders":"資料目錄"
+		,"toolbar":{
+			"nav":{
+				"folders":"資料目錄"
+			}
+		}
 	}
 	,"statusbar":{
 		"downloadspeed":"下載速度："
@@ -115,6 +121,7 @@ system.lang = {
 				,"limit":"頻寬限制"
 				,"alt-speed":"時段限制"
 			}
+			,"config-dir":"Transmission 配置文件目錄（只讀）："
 			,"download-dir":"預設保存目錄："
 			,"download-dir-free-space":"可用空間："
 			,"incomplete-dir-enabled":"啟用臨時目錄"

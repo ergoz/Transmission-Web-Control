@@ -58,7 +58,7 @@ system.lang = {
 		}
 	}
 	,"title":{
-		"left":"分类目录"
+		"left":"导航"
 		,"list":"种子列表"
 		,"attribute":"当前种子属性"
 		,"status":"状态"
@@ -89,6 +89,12 @@ system.lang = {
 			,"secondsActive":"活动时间："
 		}
 		,"server":"服务器分布"
+		,"folders":"数据目录"
+		,"toolbar":{
+			"nav":{
+				"folders":"数据目录"
+			}
+		}
 	}
 	,"statusbar":{
 		"downloadspeed":"下载速度："
@@ -115,6 +121,7 @@ system.lang = {
 				,"limit":"带宽限制"
 				,"alt-speed":"时段限制"
 			}
+			,"config-dir":"Transmission 配置文件目录（只读）："
 			,"download-dir":"默认保存目录："
 			,"download-dir-free-space":"可用空间："
 			,"incomplete-dir-enabled":"启用临时目录"
