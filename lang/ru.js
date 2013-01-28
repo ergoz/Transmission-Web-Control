@@ -21,6 +21,7 @@ system.lang = {
 	,"toolbar":{
 		"start":"Старт"
 		,"pause":"Пауза"
+		,"recheck":"Перепроверить"
 		,"start-all":"Начать все"
 		,"pause-all":"Пауза все"
 		,"remove":"Удалить"
@@ -37,6 +38,7 @@ system.lang = {
 		,"autoreload-disabled":"Отключено"
 		,"autoreload-enabled":"Включено"
 		,"search-prompt":"Поиск по торрентам"
+		,"tracker-replace":"Заменить трекеры"
 		,"tip":{
 			"start":"Загрузить выбранные торренты"
 			,"pause":"Приостановить выбранные торренты"
@@ -55,6 +57,7 @@ system.lang = {
 			,"about":"О программе"
 			,"autoreload-disabled":"Отключить авто-обновление"
 			,"autoreload-enabled":"Включить авто-обновление"
+			,"tracker-replace":"Заменить трекеры"
 		}
 	}
 	,"title":{
@@ -88,7 +91,7 @@ system.lang = {
 			,"sessionCount":"Сессии: "
 			,"secondsActive":"Время работы: "
 		}
-		,"server":"Трекеры"
+		,"servers":"Трекеры"
 		,"folders":"папки"
 		,"toolbar":{
 			"nav":{
@@ -195,6 +198,13 @@ system.lang = {
 			,"move-data":"Если выбрано перенести данные из старого каталога в новый."
 			,"set-error":"ошибка!"
 		}
+		,"system-replaceTracker":{
+			"title":"Заменить трекеры"
+			,"old-tracker":"Cтарый трекер:"
+			,"new-tracker":"Новой трекер："
+			,"tip":"This function will find <b>all torrents</b> Tracker."
+			,"not-found":"Tracker не найден."
+		}
 	}
 	,"torrent":{
 		"fields":{
@@ -247,6 +257,7 @@ system.lang = {
 				,"lastAnnounceTime":"Время анонса"
 				,"lastAnnounceTimedOut":"Тайм-аут"
 				,"downloadCount":"Количество загрузок"
+				,"nextAnnounceTime":"Далее анонса"
 			}
 			,"peers-fields":{
 				"address":"IP адрес"
@@ -295,6 +306,9 @@ system.lang = {
 				,"button-deny":"Пропустить проверенные файлы"
 				,"button-priority":"Установить приоритет"
 			}
+			,"other":{
+				"tracker-remove-confim":"Вы уверены, что хотите удалить этот \"Tracker\"?"
+			}
 		}
 	}
 	,"public":{
@@ -303,5 +317,6 @@ system.lang = {
 		,"text-saved":"Сохранено"
 		,"text-nochange":"Без изменений"
 		,"text-info":"Информация"
+		,"text-confirm":"Вы уверены?"
 	}
 };

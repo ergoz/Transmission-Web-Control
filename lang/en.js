@@ -21,6 +21,7 @@ system.lang = {
 	,"toolbar":{
 		"start":"Start"
 		,"pause":"Pause"
+		,"recheck":"Recheck"
 		,"start-all":"Start all"
 		,"pause-all":"Pause all"
 		,"remove":"Remove"
@@ -37,6 +38,7 @@ system.lang = {
 		,"autoreload-disabled":"Disabled"
 		,"autoreload-enabled":"Enabled"
 		,"search-prompt":"Search Loacl Torrents"
+		,"tracker-replace":"Replace trackers"
 		,"tip":{
 			"start":"Start the checked torrents"
 			,"pause":"Pause the checked torrents"
@@ -55,6 +57,7 @@ system.lang = {
 			,"about":"About this app"
 			,"autoreload-disabled":"Disabled auto reload"
 			,"autoreload-enabled":"Enabled auto reload"
+			,"tracker-replace":"Replace trackers"
 		}
 	}
 	,"title":{
@@ -89,7 +92,7 @@ system.lang = {
 			,"sessionCount":"SessionCount: " 
 			,"secondsActive":"SecondsActive: "
 		}
-		,"server":"Trackers"
+		,"servers":"Trackers"
 		,"folders":"Folders"
 		,"toolbar":{
 			"nav":{
@@ -196,6 +199,13 @@ system.lang = {
 			,"move-data":"If checked, move from previous location. otherwise, search 'New dir' for files."
 			,"set-error":"set error!"
 		}
+		,"system-replaceTracker":{
+			"title":"Replace Trackers"
+			,"old-tracker":"Old tracker："
+			,"new-tracker":"New tracker："
+			,"tip":"This function will find <b>all torrents</b> Tracker."
+			,"not-found":"Tracker is not found."
+		}
 	}
 	,"torrent":{
 		"fields":{
@@ -248,6 +258,7 @@ system.lang = {
 				,"lastAnnounceTime":"AnnounceTime"
 				,"lastAnnounceTimedOut":"TimedOut"
 				,"downloadCount":"Download count"
+				,"nextAnnounceTime":"Next announce"
 			}
 			,"peers-fields":{
 				"address":"IP address"
@@ -296,6 +307,9 @@ system.lang = {
 				,"button-deny":"Skip checked file(s)"
 				,"button-priority":"Set priority"
 			}
+			,"other":{
+				"tracker-remove-confim":"Are you sure want to remove this Tracker?"
+			}
 		}
 	}
 	,"public":{
@@ -304,5 +318,6 @@ system.lang = {
 		,"text-saved":"Saved"
 		,"text-nochange":"No change"
 		,"text-info":"Infos"
+		,"text-confirm":"Are you sure?"
 	}
 };

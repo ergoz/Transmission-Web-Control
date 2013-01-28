@@ -6,22 +6,26 @@
 	<meta http-equiv="no-cache">
 	<meta http-equiv="Expires" content="-1">
 	<meta http-equiv="Cache-Control" content="no-cache">
-	<title>Transmission Control</title>
+	<title>Transmission Web Control</title>
 	<!-- 样式表 -->
-	<link rel="stylesheet" type="text/css" href="style/base.css?v=20130110.2200" />
-   <link rel="stylesheet" type="text/css" href="script/easyui/themes/default/easyui.css?v=20130110.2200"/>  
-   <link rel="stylesheet" type="text/css" href="script/easyui/themes/icon.css?v=20130110.2200"/>
+	<link rel="stylesheet" type="text/css" href="style/base.css?v=20130128.2100" />
+   <link rel="stylesheet" type="text/css" href="script/easyui/themes/default/easyui.css?v=20130128.2100"/>  
+   <link rel="stylesheet" type="text/css" href="script/easyui/themes/icon.css?v=20130128.2100"/>
 	<!-- 基础类库 -->
 	<script type="text/javascript" src="script/jquery/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="script/jquery/jquery.form.js"></script>
 	<script type="text/javascript" src="script/jquery/json2.min.js"></script>
 	<script type="text/javascript" src="script/jquery/Base64.js"></script>
-	<script type="text/javascript" src="script/easyui/jquery.easyui.min.js?v=20130110.2200"></script>
+	<script type="text/javascript" src="script/easyui/jquery.easyui.min.js?v=20130128.2100"></script>
 	<!-- -->
 	<!-- 系统类库 -->
-	<script type="text/javascript" src="script/min/transmission.js?v=20130110.2200"></script>
-	<script type="text/javascript" src="script/min/public.js?v=20130110.2200"></script>
-	<script type="text/javascript" src="script/min/system.js?v=20130110.2200"></script>
+	<script type="text/javascript" src="script/min/public.js?v=20130128.2100"></script>
+	<script type="text/javascript" src="script/min/cookies.js?v=20130128.2100"></script>
+	<script type="text/javascript" src="script/min/clientDevice.js?v=20130128.2100"></script>
+	<script type="text/javascript" src="script/min/transmission.js?v=20130128.2100"></script>
+	<script type="text/javascript" src="script/min/transmission.torrents.js?v=20130128.2100"></script>	
+	<script type="text/javascript" src="script/min/system.js?v=20130128.2100"></script>
+	<script type="text/javascript" src="config.js?v=20130128.2100"></script>
 </head>
 <body>
 	<div id="main" class="easyui-layout">
@@ -37,6 +41,10 @@
 					<a id="toolbar_reload" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true"></a>
 					<a id="toolbar_alt_speed" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-alt-speed-false',plain:true"></a>
 					<a id="toolbar_config" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-system-config',plain:true"></a>
+					<span class="button-split">|</span>
+					<a id="toolbar_tracker_replace" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-tracker-replace',plain:true"></a>
+					<a id="toolbar_mobile" href="javascript:location.href = 'index.mobile.html';" class="easyui-linkbutton" data-options="iconCls:'icon-mobile',plain:true"></a>
+					<a id="" href="javascript:location.href = 'index.original.html';" class="easyui-linkbutton" data-options="iconCls:'icon-transmission',plain:true"></a>
 					<span class="button-split">|</span>
 					<a id="toolbar_start_all" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-start-all',plain:true,disabled:true"></a>
 					<a id="toolbar_pause_all" href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-pause-all',plain:true,disabled:true"></a>
