@@ -34,19 +34,21 @@ Extract to transmission web directory.
 
 Visit web interface. (Example: http://127.0.0.1:9091/transmission/web/)
 
+### SVN trunk
+
+`svn checkout http://transmission-control.googlecode.com/svn/trunk/transmission-control-read-only`
+
 ## About
 
-Author: Ronggang Zhou
+Author: [Ronggang Zhou](http://code.google.com/p/transmission-control/)
 
-[Source project page](http://code.google.com/p/transmission-control/)
-
-Russian translation: [Barif](https://github.com/barif)
+Russian translation: Barif
 
 Spanish translation: Adrián González
 
 Polish translation: Daniel Kolek
 
-Hungarian translation: Swartzy 
+Hungarian translation: Swartzy
 
 ##Code license
 
