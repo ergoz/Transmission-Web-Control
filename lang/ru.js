@@ -58,6 +58,7 @@ system.lang = {
 			,"autoreload-disabled":"Отключить авто-обновление"
 			,"autoreload-enabled":"Включить авто-обновление"
 			,"tracker-replace":"Заменить трекеры"
+			,"change-download-dir":"Установить местоположение"
 		}
 	}
 	,"title":{
@@ -215,6 +216,7 @@ system.lang = {
 			,"totalSize":"Объем"
 			,"status":"Статус"
 			,"percentDone":"%"
+			,"remainingTime":"Remaining time"
 			,"addedDate":"Добавлено"
 			,"completeSize":"Загружено"
 			,"rateDownload":"Прием"

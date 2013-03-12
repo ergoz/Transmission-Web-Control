@@ -58,6 +58,10 @@ system.lang = {
 			,"autoreload-disabled":"Disabled auto reload"
 			,"autoreload-enabled":"Enabled auto reload"
 			,"tracker-replace":"Replace trackers"
+			,"change-download-dir":"Set location"
+			,"ui-mobile":"Mobile UI"
+			,"ui-original":"Original UI"
+			,"more-peers":"Ask tracker for more peers"
 		}
 	}
 	,"title":{
@@ -115,7 +119,7 @@ system.lang = {
 			,"set-default-download-dir":"Set as default dir"
 			,"upload-file":"Torrent file(s):"
 			,"nosource":"No torrent file or URL."
-			,"tip-title":"Upload file priority in the URL"
+			,"tip-title":"Upload the torrent file takes precedence over the torrent URL"
 		}
 		,"system-config":{
 			"title":"Server Config"
@@ -216,6 +220,7 @@ system.lang = {
 			,"totalSize":"Total size"
 			,"status":"Status"
 			,"percentDone":"Percent done"
+			,"remainingTime":"Remaining time"
 			,"addedDate":"Added date"
 			,"completeSize":"Complete size"
 			,"rateDownload":"Rate download"
@@ -319,5 +324,6 @@ system.lang = {
 		,"text-nochange":"No change"
 		,"text-info":"Infos"
 		,"text-confirm":"Are you sure?"
+		,"text-browsers-not-support-features":"The current browser does not support this feature!"
 	}
 };
