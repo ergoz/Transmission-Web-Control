@@ -42,13 +42,17 @@ Visit web interface. (Example: http://127.0.0.1:9091/transmission/web/)
 
 Author: [Ronggang Zhou](http://code.google.com/p/transmission-control/)
 
-Russian translation: Barif
+### Translatios
 
-Spanish translation: Adrián González
+Russian: Barif
 
-Polish translation: Daniel Kolek
+Spanish: Adrián González
 
-Hungarian translation: Swartzy
+Polish: Daniel Kolek
+
+Hungarian: Swartzy
+
+Romanian: Laurentiu Dinulescu
 
 ##Code license
 
